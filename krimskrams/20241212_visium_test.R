@@ -11,7 +11,7 @@ library(patchwork)
 library(dplyr)
 
 # defining Seurat object
-testdata = Load10X_Spatial(data.dir = '/Tatjana/data/visium/patient1_R3/outs',
+testdata = Load10X_Spatial(data.dir = '/path/to/visium/outs',
                            filename = "filtered_feature_bc_matrix.h5",
                            assay = "Spatial",
                            slice = "pat1_r3")
